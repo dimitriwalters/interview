@@ -28,7 +28,7 @@ Concepts
 
 ### Hash Tables
 
-Very useful data structure in algorithms. This should probably be the first data structure thought of when designing an algorithm. Basically: an array but with constant access time of elements. Whereas a normal array would require linear scanning (or binary search if sorted), values are inserted into a fixed index using a *hashing function*. So given a value, one can always find the index of that value in a hash table.
+Very useful data structure in algorithms - it should probably be the first data structure thought of when designing an algorithm. A hash table is a data structure that maps keys to values, but can be thought of as an array with constant access time to elements. Whereas a normal array would require linear scanning (or binary search if sorted), values are inserted into a fixed index using a *hashing function*. So given a value, one can always find the index of that value in a hash table.
 
 Note: The time complexity is not *exactly* constant. In cases where hashes of two values are the same, called *collisions*, the hash table would have to either expand or have some other type of implementation to deal with it (could use a linked list, or place values in another available spot).
 
