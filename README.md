@@ -2,13 +2,13 @@
 
 As recommended by "Cracking the Coding Interview", I will go into detail descrbing the following material:
 
-Data Structures
+[Data Structures](#data-structures)
 * Linked Lists
 * Trees, Tries, & Graphs
 * Stacks & Queues
 * Heaps
 * Vectors / ArrayLists
-* Hash Tables
+* [Hash Tables](#hash-tables)
 
 [Algorithms](#algorithms)
 * Breadth-First Search
@@ -23,6 +23,26 @@ Concepts
 * Recursion
 * Dynamic Programming
 * Big O Time & Space
+
+## Data Structures
+
+### Hash Tables
+
+Very useful data structure in algorithms. This should probably be the first data structure thought of when designing an algorithm. Basically: an array but with constant access time of elements. Whereas a normal array would require linear scanning (or binary search if sorted), values are inserted into a fixed index using a *hashing function*. So given a value, one can always find the index of that value in a hash table.
+
+Note: The time complexity is not *exactly* constant. In cases where hashes of two values are the same, called *collisions*, the hash table would have to either expand or have some other type of implementation to deal with it (could use a linked list, or place values in another available spot).
+
+Python dictionaries are implemented as hash tables:
+
+```python
+ht = {}
+not_ht = []
+for i in range(0, 5):
+    ht[i] = 1
+    not_ht.append(i)
+print 4 in ht # constant
+print 4 in not_ht # not constant
+```
 
 ## Algorithms
 
