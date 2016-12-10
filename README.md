@@ -63,7 +63,7 @@ It's the go-to algortihm for searching sorted arrays.
 
 ## Concepts
 
-### Big Manipulation
+### Bit Manipulation
 
 Bit Shifting
 * Airthmetic shift - dividing a number by two (keep signed bit)
