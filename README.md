@@ -17,8 +17,8 @@ As recommended by "Cracking the Coding Interview", I will go into detail descrbi
 * Merge Sort
 * Quick Sort
 
-Concepts
-* Bit Manipulation
+[Concepts](#concepts)
+* [Bit Manipulation](#bit-manipulation)
 * Memory (Stack vs. Heap)
 * Recursion
 * Dynamic Programming
@@ -60,3 +60,11 @@ def binsrch(a, x):
 ```
 
 It's the go-to algortihm for searching sorted arrays.
+
+## Concepts
+
+### Big Manipulation
+
+Bit Shifting
+* Airthmetic shift - dividing a number by two (keep signed bit)
+* Logical shift - shifting bits by one (don't keep signed bit)
